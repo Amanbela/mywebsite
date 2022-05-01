@@ -1,0 +1,41 @@
+/* 
+
+Project Name: Tom and Jerry 
+Client: Tom and Jerry
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+    background: url('../images/tom-and-jerry-12349.png');
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    /* the follow is the code to have the image display as a full page */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#container {
+    background: black;
+    width: 424px;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    background: blue;
+    color: black;
+}
+
+a {
+    color: #f675e5;
+    text-decoration: none;
+}
